@@ -1,13 +1,14 @@
-package com.example;
+package com.laws.visualoverlay;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+@SuppressWarnings("unchecked")
+public class VisualOverlayTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(VisualOverlayPlugin.class);
 		RuneLite.main(args);
 	}
 }
